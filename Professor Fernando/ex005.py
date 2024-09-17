@@ -36,17 +36,9 @@ while True:
             print('Opção inválida, tente novamente: ')
             
         continuar = input('Deseja Continuar? s/n').strip().upper()
-        while continuar != 'S' or 'N':
-            print('Poderia repetir?')
-           
-            if continuar == 'S':
-                print('Continuando')
-        
-            else:
-                continuar == 'N'
+        while continuar != 'S':
                 print('Parando')
                 break
-        
-        
+
     except: 'Insira um valor numérico por favor'
 #incompleto
