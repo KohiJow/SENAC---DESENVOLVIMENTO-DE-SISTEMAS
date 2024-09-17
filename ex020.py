@@ -1,6 +1,6 @@
 #O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalhos dos alunos.
 #Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
-from random import shuffle #Da biblioteca randim importa o shuffle
+from random import shuffle #Da biblioteca random importa o shuffle
 #from random import choice
  
 n1 = str(input('Primeiro Grupo: '))
