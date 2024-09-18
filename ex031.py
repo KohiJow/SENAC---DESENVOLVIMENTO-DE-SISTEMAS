@@ -4,7 +4,7 @@
 
 distancia = float(input('Qual a distãncia da sua viagem?\n'))
 
-if distancia > 200:
+if distancia >= 200:
     print(f'Vai custar: ${distancia * 0.45:.2f}')
 else:
-    print(f'Sua viagem vai custar: ${distancia <= 200:.2f}')
+    print(f'Sua viagem vai custar: ${distancia * 0.50:.2f}')
