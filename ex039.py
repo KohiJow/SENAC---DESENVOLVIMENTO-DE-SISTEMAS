@@ -18,4 +18,4 @@ elif idade > 18:
     print(f'Você está atrasado {idade - 18} anos para poder se alistar') 
 
 else:
-    print('Você deve se alistar ainda esse ano piranha') 
+    print('Você deve se alistar ainda esse ano piranha') #by maranhao
