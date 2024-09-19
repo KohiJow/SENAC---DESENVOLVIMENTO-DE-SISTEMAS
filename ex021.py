@@ -2,6 +2,5 @@
 
 import pygame
 pygame.init()
-pygame.mixer.music.load("C:\\Users\\conta\\Downloads\\guanabara\\guanabara\\guanabara\\Python\\ex021.mp3")
-pygame.mixer.music.play()
+pygame.mixer.music.load('C:\Users\joao.mfrodrigues\Downloads\SENAC---DESENVOLVIMENTO-DE-SISTEMAS\ex021.mp3')
 pygame.event.wait()

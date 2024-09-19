@@ -22,7 +22,7 @@ text                    background
 # \033[m
 # \033[7:30m
 
-print('\033[0;97;47mOlá, mundo!\033[m')
+print('\033[1;31;40mOlá, mundo!\033[m')
 
 a = 4
 b = 3
