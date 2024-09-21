@@ -4,20 +4,20 @@ Refaça o DESAFIO 035 dos triângulos, acrescentando o recurso de mostrar que ti
 -Isósceles: dois lados iguais
 -Escaleno: todos os lados diferentes
 '''
-print('Insira o tamanho das linhas e eu direi se elas conseguem\nformar um triângulo ou não:\n')
+print('Insira o tamanho dos lados e eu direi se eles conseguem\nformar um triângulo ou não e qual tipo de triângulo será formado:\n')
 
-A = float(input('Insira a linha A: '))
-B = float(input('Insira a linha B: '))
-C = float(input('Insira a linha C: '))
+A = float(input('Insira o lado A: '))
+B = float(input('Insira o lado B: '))
+C = float(input('Insira o lado C: '))
 
 if A + B > C and A + C > B and B + C > A:
-    print('Formam um Triângulo')
-if (A == B and A == C) or (B == A and B == C) or (C==A or C==B):
-    print('Triângulo Equilátero')
-elif (A == B and A == C and A!= C or B) or (B == A and B == C and B != A or C) or (C==A or C==B and C != A or B):
-    print('Triângulo Isósceles')
-elif (A != B and A != C):
-    print('Triângulo Escaleno')
+    print('Os lados formam um triângulo!')
+
+    if A == B == C:
+        print('Triângulo Equilátero: todos os lados são iguais.')
+    elif A == B or A == C or B == C:
+        print('Triângulo Isósceles: dois lados são iguais.')
+    else:
+        print('Triângulo Escaleno: todos os lados são diferentes.')
 else:
-    print('Não formam um triângulo')
-    
+    print('Os lados NÃO formam um triângulo.')
