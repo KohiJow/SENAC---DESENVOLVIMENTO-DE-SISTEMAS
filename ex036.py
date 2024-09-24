@@ -6,11 +6,11 @@ Calcule o valor da prestação mensal, sabendo que ela não pode exceder
 30% do salário ou então o empréstimo será negado.
 '''
 casa = float(input('Qual o valor da casa?\n'))
-salário = float(input('Qual seu salário?\n'))
+salario = float(input('Qual seu salário?\n'))
 anos = int(input('Em quantos anos pretende pagar?\n'))
 prestação = casa / (anos * 12)
 
-if prestação > (salário / 100 * 30):
+if prestação > (salario / 100 * 30):
     print('Empréstimo negado')
 
 else:

@@ -10,7 +10,7 @@ num = int(input('Primeiro número: '))
 num2 = int(input('Segundo número'))
 
 if num > num2:
-    print(f'O primeiro valor que é {num} é maior que {num}')
+    print(f'O primeiro valor que é {num} é maior que {num2}')
 elif num < num2:
     print(f'O segundo valor que é {num2} é maior que {num}')
 elif num == num2:

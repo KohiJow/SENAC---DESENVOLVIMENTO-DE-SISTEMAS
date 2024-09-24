@@ -18,4 +18,26 @@ elif idade > 18:
     print(f'Você está atrasado {idade - 18} anos para poder se alistar') 
 
 else:
-    print('Você deve se alistar ainda esse ano piranha') #by maranhao
+    print('Você deve se alistar ainda esse ano ') #by maranhao
+
+    #correção
+'''
+    from datetime import datetime
+
+# Pega o ano atual
+ano_atual = datetime.now().year
+
+# Entrada do ano de nascimento
+ano_nascimento = int(input('Em que ano você nasceu? '))
+
+# Calcula a idade
+idade = ano_atual - ano_nascimento
+
+# Verifica a situação do alistamento
+if idade < 18:
+    print(f'Faltam {18 - idade} anos para o seu alistamento.')
+elif idade > 18:
+    print(f'Você está atrasado {idade - 18} anos para o alistamento.')
+else:
+    print('Você deve se alistar este ano.')
+'''

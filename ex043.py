@@ -22,4 +22,29 @@ elif imc > 25 and  imc < 40:
     print('Obesidade')
 else:
     print('Obesidade Mórbida.')
-    
+
+#correção
+'''
+print('Por favor insira sua altura e peso:')
+altura = float(input('Altura (em metros): '))
+peso = float(input('Peso (em kg): '))
+
+# Cálculo do IMC
+imc = peso / (altura ** 2)
+
+# Exibindo o IMC formatado com duas casas decimais
+print(f'Seu IMC é {imc:.2f}')
+
+# Classificação do IMC
+if imc < 18.5:
+    print('Você está abaixo do peso.')
+elif 18.5 <= imc < 25:
+    print('Você está no peso ideal.')
+elif 25 <= imc < 30:
+    print('Você está com sobrepeso.')
+elif 30 <= imc < 40:
+    print('Você está com obesidade.')
+else:
+    print('Você está com obesidade mórbida.')
+
+'''

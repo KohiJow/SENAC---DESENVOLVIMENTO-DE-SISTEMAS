@@ -35,3 +35,26 @@ else:
     print('-*-' * 12)
     print('Você ainda é muito novo pra competir')
     print('-*-' * 12)
+
+#correção
+'''
+# Entrada do nome e idade do atleta
+nome = str(input('\033[1;34mOlá! Qual seu nome?\033[m\n'))
+print(f'\033[1;34mOlá {nome}, por favor me diga sua idade:\033[m')
+idade = int(input())
+
+# Verifica a categoria do atleta com base na idade
+print('-*-' * 12)
+if idade <= 9:
+    print(f'Atleta: {nome}\nClasse: MIRIM')
+elif idade <= 14:
+    print(f'Atleta: {nome}\nClasse: INFANTIL')
+elif idade <= 19:
+    print(f'Atleta: {nome}\nClasse: JÚNIOR')
+elif idade == 20:
+    print(f'Atleta: {nome}\nClasse: SÊNIOR')
+else:
+    print(f'Atleta: {nome}\nClasse: MASTER')
+print('-*-' * 12)
+
+'''
