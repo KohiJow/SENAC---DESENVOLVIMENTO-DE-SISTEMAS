@@ -7,6 +7,7 @@ de um atleta e mostre sua categoria de acordo com sua idade:
 -Até 20 anos: SÊNIOR
 Acima: MASTER
 '''
+'''
 nome= str(input('\033[1;34mOlá! Qual seu nome?\033[m\n'))
 print(f'\033[1;34mOlá {nome}, por favor me diga sua idade:\033[m')
 idade = int(input())
@@ -39,22 +40,22 @@ else:
 #correção
 '''
 # Entrada do nome e idade do atleta
+from datetime import date
 nome = str(input('\033[1;34mOlá! Qual seu nome?\033[m\n'))
 print(f'\033[1;34mOlá {nome}, por favor me diga sua idade:\033[m')
-idade = int(input())
+atual = date.today().year
+nascimento = int(input('Ano de Nascimento: '))
+idade = atual - nascimento
 
-# Verifica a categoria do atleta com base na idade
 print('-*-' * 12)
 if idade <= 9:
-    print(f'Atleta: {nome}\nClasse: MIRIM')
+    print(f'Atleta: {nome}\nIdade: {idade}\nClasse: MIRIM')
 elif idade <= 14:
-    print(f'Atleta: {nome}\nClasse: INFANTIL')
+    print(f'Atleta: {nome}\nIdade: {idade}\nClasse: INFANTIL')
 elif idade <= 19:
-    print(f'Atleta: {nome}\nClasse: JÚNIOR')
+    print(f'Atleta: {nome}\nIdade: {idade}\nClasse: JÚNIOR')
 elif idade == 20:
-    print(f'Atleta: {nome}\nClasse: SÊNIOR')
+    print(f'Atleta: {nome}\nIdade: {idade}\nClasse: SÊNIOR')
 else:
-    print(f'Atleta: {nome}\nClasse: MASTER')
+    print(f'Atleta: {nome}\nIdade: {idade}\nClasse: MASTER')
 print('-*-' * 12)
-
-'''
