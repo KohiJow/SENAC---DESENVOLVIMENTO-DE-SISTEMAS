@@ -20,9 +20,9 @@ elif fp == 'CARTAO' or fp == 'CARTÃO':
     vezes = int(input('Em quantas vezes?\n'))
     if vezes ==1:
         print(f'valor total: {valor - desconto}')
-    if vezes ==2:
-        print(f'valor total: {valor}')
-    if vezes >=3:
+    elif vezes ==2:
+        print(f'valor total: {valor} em {vezes} vezes de {valor/vezes}')
+    elif vezes >=3:
         print(f'valor total: {valor+juros}')
     else:
         print('Número de parcelas inválido. Deve ser no mínimo 1.')    
