@@ -2,6 +2,7 @@ frase = 'Curso em Vídeo Python' #aqui tem 20 caracteres
 Teste = frase.replace('Python', 'Teste')
 Dividido = frase.split()
 #print(frase[3:19:2]) Fatiamento
+#print(frase[::-1]) Fatiamento lendo ao contrario
 #print(len(frase))
 #print(frase.count('P'))
 #print(frase.upper().count('O'))
