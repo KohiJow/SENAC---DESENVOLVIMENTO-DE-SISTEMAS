@@ -23,6 +23,6 @@ for p in range(1,5):
     if sexo == 'F' and idade < 20:
         totmulher20 += 1
         
-print(f'A média de idade do grupo é de {soma_idade//2}') #*A média de idade do grupo
+print(f'A média de idade do grupo é de {soma_idade//4}') #*A média de idade do grupo
 print(f'O nome do homem mais velho de {homemvelho} anos é {nomevelho}')
 print(f'O total de mulheres com menos de 20 anos é {totmulher20}')
