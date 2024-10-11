@@ -3,7 +3,7 @@
 *Qual é o nome do homem mais velho.
 *Quantas mulheres têm menos de 20 anos.'''
 totmulher20 = 0
-soma_idade=0
+soma_idade= 0
 homemvelho = 0
 nomevelho = 0
 
