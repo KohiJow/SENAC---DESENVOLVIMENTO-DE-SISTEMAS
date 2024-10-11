@@ -2,8 +2,11 @@
 *A média de idade do grupo
 *Qual é o nome do homem mais velho.
 *Quantas mulheres têm menos de 20 anos.'''
-media_idade=0
-maior_idade = 0
+totmulher20 = 0
+soma_idade=0
+homemvelho = 0
+nomevelho = 0
+
 for p in range(1,5):
     print(f'--- {p}ª Pessoa ---')
     nome = str(input(f'Qual o nome da {p} pessoa?\n'))
@@ -11,16 +14,15 @@ for p in range(1,5):
     sexo = str(input(f'Qual o sexo da {p} pessoa? M/F\n')).strip().upper()
     
     
-    media_idade += idade
+    soma_idade += idade
+ 
+    if sexo == 'M' and idade > homemvelho:
+        homemvelho = idade
+        nomevelho = nome
     
-    if p == 1:
-        maior_idade= p
-        nome = p
+    if sexo == 'F' and idade < 20:
+        totmulher20 += 1
         
-    else:
-        if idade > maior_idade:
-            maior_idade = idade
-            
-            
-print(f'A média de idade do grupo é de {media_idade//2}')
-print(f'O nome do homem mais velho de {maior_idade} é {nome}')
+print(f'A média de idade do grupo é de {soma_idade//2}') #*A média de idade do grupo
+print(f'O nome do homem mais velho de {homemvelho} anos é {nomevelho}')
+print(f'O total de mulheres com menos de 20 anos é {totmulher20}')
