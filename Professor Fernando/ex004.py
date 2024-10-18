@@ -1,7 +1,10 @@
-#Tabuada com FOR
+#contagem regressiva de 10 a 1
+contador = 10
 
-num = int(input('Digite um número e eu mostrarei sua tabuada: '))
-
-for i in range(1,11):
-    print(num, 'x', i, '=', num * i)
+#laço de repetição enquanto o contador for maior que 0
+while contador > 0:
+    print(f"Contagem: {contador}")
+    contador -= 1
     
+#Exibe uma mensagem ao final da contagem
+print("Fim da contagem")

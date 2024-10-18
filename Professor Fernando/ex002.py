@@ -1,16 +1,11 @@
-#Crie um programa que diga se uma pessoa pode dirigir ou não, com base nos valores idade, altura e nome.
+#Solicita ao usuário que insira dois números e exibe a soma
 
-print('Olá, seja bem-vindo!')
+#recebe dois números inteiros como entrada
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
 
-nome = input('Qual seu nome: ')
-print(f'Olá {nome}!')
+#calcula a soma
+resultado = num1 + num2
 
-idade = int(input('Qual sua idade: '))
-altura = float(input('Digite sua altura em metros: '))
-
-if idade < 18:
-    print('Você ainda não tem idade suficiente para dirigir.')
-elif altura < 1.60:
-    print('Você não tem altura suficiente para dirigir.')
-else:
-    print('Você pode dirigir!')
+#exibe o resultado
+print(f'O resultado da soma é : {resultado}')

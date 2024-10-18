@@ -1,20 +1,12 @@
-#Fazer um programa de contagem regressiva
+#Solicita ao usuário que insira dois números e exibe qual o maior
 
-#contagem = 10
+#recebe dois números inteiros como entrada
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
 
-#while contagem > 0:
-    #print(f'Contagem regressiva: {contagem}') 
-    #contagem -= 1
+if num1 > num2:
+    print("O primeiro número é maior")
 
-# correção 
-
-import time  # Importa o módulo time para usar a função sleep
-
-contagem = 10
-
-while contagem > 0:
-    print(f'Contagem regressiva: {contagem}')
-    time.sleep(1)  # Espera 1 segundo
-    contagem -= 1
-
-print('Contagem regressiva concluída!')
+else:
+    print("O segundo número é maior ou igual")
+    
