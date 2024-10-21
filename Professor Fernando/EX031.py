@@ -55,3 +55,4 @@ while True:
          break
     else:
         print('\n' + '| -- ERRO -- | -- Opção INVÁLIDA -- ' + '\n')
+        

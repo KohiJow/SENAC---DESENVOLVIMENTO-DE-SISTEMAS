@@ -23,7 +23,7 @@ if msg_help == tabela_morse[0]:
     print(l0)
 
 else:
-    print('\n' + le)
+    print('\n' + l0)
     print(' Codigo NAO confere com a tabela Morse, referente a mensagem: {}' .format(tabela_morse[1] ) )
     print(l0)
 
