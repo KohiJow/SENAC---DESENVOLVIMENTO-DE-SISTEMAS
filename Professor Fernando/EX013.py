@@ -5,7 +5,7 @@ programação, que tem como a finalidade de JUNTAR valores, conforme o exercíci
 concatenar = 'U'  + 'A' + 'U'
 dez_vezes_a = 'A' * 10
 msg = 'Veja como é importante concatenar...'
-print('\n')
+print('\n') # -> Pula uma linha, lembra?
 print(msg)
 print('\n')
 print(dez_vezes_a, concatenar) # Imprimindo dois valores no mesmo print
