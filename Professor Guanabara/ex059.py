@@ -8,3 +8,7 @@ Crie um programa que leia dois valores e mostre um menu na tela:
 
 Seu programa deverá realizar a operação solicitada em cada caso.
 '''
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
+somar = n1 + n2
+multiplicar = n1 * n2
