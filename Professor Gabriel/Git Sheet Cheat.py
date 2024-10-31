@@ -19,9 +19,10 @@ git clone <url>             # Clona um repositório remoto para o seu computador
 # intermediária onde as mudanças são preparadas para serem gravadas. Já o snapshot é o 
 # registro permanente dessas mudanças no histórico do Git.
 '''
-git config --global user.name "Seu Nome"
-git config --global user.email "seu.email@exemplo.com"
-git config --global color.ui auto  # Ativa cores no terminal para facilitar leitura
+git branch <nome>           # Cria uma nova branch
+git checkout <nome>         # Troca para a branch desejada
+git checkout -b <nome>      # Cria e troca para uma nova branch
+git merge <branch>          # Mescla a branch especificada com a atual
 '''
 
 #(04)Branch e Merge (Ramificação e Mesclagem)
