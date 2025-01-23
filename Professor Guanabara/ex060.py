@@ -5,10 +5,20 @@ Ex:
 5! = 5x4x3x2x1= 120
 
 '''
-num = int(input('Insira um número e eu direi seu fatorial:\n!'))
-cont = num
-fatorial = 1
-while cont > 0:
-    fatorial *= cont
-    cont -= 1
-print(f'Seu fatorial de {num}! é {fatorial}')
+""" 
+#Solucao simples
+from math import factorial
+n = int(input("Digite um número para calcular seu Fatorial: "))
+f= factorial(n)
+print(f"O fatorial de {n} é {f}.")
+"""
+n = int(input("Digite um número para calcular seu Fatorial: "))
+c = n
+f = 1
+print(f"Calculando {n}!", end="")
+while c> 0:
+    print(f"{c} ",end="")
+    print(" x " if c> 1 else " = ", end="")
+    f *= c
+    c -= 1
+print(f"{f}")

@@ -6,7 +6,7 @@ mostrando no final quantos palpites foram necessários para vencer.
 
 import random 
 computador = random.randint(0,10)
-user_choice = int(input('Que número estou pensando?\n'))
+user_choice = int(input('Que número estou pensando? entre 0 e 10\n'))
 while computador != user_choice:
     user_choice = int(input('Errou, tente novamente:\n'))
 
