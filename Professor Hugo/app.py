@@ -25,7 +25,7 @@ app.register_blueprint(carro_routes)  # ✅ Correção
 # Bloco principal do aplicativo Flask.
 if __name__ == "__main__":
     
-    # O bloco 'with app.app_context()' é usado para criar o banco de dados antes de rodar a aplicação.
+    # O Bloco 'with app.app_context()' é usado para criar o banco de dados antes de rodar a aplicação.
     # Ele garante que a criação das tabelas do banco de dados ocorra dentro do contexto da aplicação Flask.
     with app.app_context():
         db.create_all()  # Cria todas as tabelas no banco de dados com base nos modelos definidos.
