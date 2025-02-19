@@ -3,7 +3,7 @@ from flask import Flask
 from db import db
 
 from routes.eletronicos_routes import eletronicos_routes
-#daqui pra baixo entendi porra nenhuma tenho q estuda cacete
+
 app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///eletronicos.db'
